@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+	int val = 11;
+	int flag = 1 & (val>>3);
+
+	cout << flag << endl;
+
+	return 0;
+}
