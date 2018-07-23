@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+
+bool IsNthBitOne(int val, int numShift) {
+
+	return 1 & (val >> 3);
+
+}
+
+int main() {
+
+	int val;
+	int numShift;
+
+	cin >> val;
+	cin >> numShift;
+	cout << IsNthBitOne(val,numShift) << endl;
+
+	return 0;
+}
